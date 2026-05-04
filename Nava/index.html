@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>
+         Service Apartment for Rent in Coimbatore | Fully Furnished House
+      </title>
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" href="css/bootstrap.min.css"/>
+      <script rel="stylesheet" src="script/bootstrap.bundle.min.js"></script>
+      <link rel="stylesheet" href="css/mediaquery.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/parallaxx-js/dist/parallax.css" />
+      <link rel="stylesheet" href="css/poppins.css" />
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-xl navbar-light custom-navbar">
+         <div class="container-fluid">
+            <!-- Left side logo -->
+            <a class="navbar-brand" href="#">
+            <img src="img/NavanithNest-Logo 1.png" alt="Logo" class="d-inline-block align-text-top" loading="lazy"/>
+            </a>
+            <!-- Toggler for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Right side menu -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+               <ul class="navbar-nav custom-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#custom_map_locationid">Location</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#list_id">Attach & EARN</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#photo_galary_id">Photo Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#list_id">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Terms & Conditons</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Hero Section -->
+      <section class="hero">
+         <div class="overlay"></div>
+         <div class="hero-content">
+            <h1>Feel like a Home <br/> Cheaper than Hotel Stay</h1>
+            <p>Fully Furnished Service Apartment in Coimbatore</p>
+            <a href="https://wa.me/971559141074?text=I'm%20interested%20in%20Service%20Apartment" target="_blank" style="text-decoration:none;">
+            <button class="hero_btn_whatsap">
+            <img src="img/Icon.png" class="pe-2 whats_img_img" alt="whatsapp"/> Call Us ( WhatsApp )
+            </button>
+            </a>
+         </div>
+         <!-- search contianer -->
+         <div class="search-container">
+            <div class="search-item">
+               <div class="icon"><img src="img/frame1.png"/></div>
+               <div style="display: flex; flex-direction: column;" class="field-group custom-dropdown">
+                  <label class="label custom-label " id="carsLabel">City</label>
+                  <select id="city" name="city" class="custom-select">
+                     <option value="" class="carsSelected">-- Select City --</option>
+                     <div class="dropdown-options" id="carsOptions"></div>
+                     <option value="coimbatore">Coimbatore</option>
+                     <option value="chennai">Chennai</option>
+                     <option value="bangalore">Bangalore</option>
+                  </select>
+               </div>
+            </div>
+            <div class="divider"></div>
+            <div class="search-item">
+               <div class="icon"><img src="img/frame1.png"/></div>
+               <div style="display: flex; flex-direction: column;">
+                  <div class="label custom-label">Area</div>
+                  <select id="area" disabled>
+                     <option value="">-- Select Area --</option>
+                  </select>
+               </div>
+            </div>
+            <div class="search_div">
+               <button type="button" class="search-btn search_btn_web d-lg-none d-md-none d-none" id="searchBtn"></button>
+               <!-- <span>
+                  <button type="button" class="search-btn search_btn_web d-lg-block d-block d-md-block" id="searchBtn">
+                    <span class="d-none d-md-block d-lg-block">SEARCH</span>
+                    <span class="d-lg-none d-md-none d-block "><img src="img/search.png" /></span>
+                  </button>
+                  </span> -->
+            </div>
+         </div>
+      </section>
+      <!-- ================================= -->
+      <div class="filter-row custom-filter-row" data-city="coimbatore" data-area="rs_puram">Coimbatore – RS Puram Category</div>
+      <div class="filter-row custom-filter-row" data-city="coimbatore" data-area="gandhipuram">Coimbatore – Gandhipuram Category</div>
+      <div class="filter-row custom-filter-row" data-city="chennai" data-area="t_nagar">Chennai – T Nagar Category</div>
+      <div class="filter-row custom-filter-row" data-city="chennai" data-area="velachery">Chennai – Velachery Category</div>
+      <div class="filter-row custom-filter-row" data-city="bangalore" data-area="whitefield">Bangalore – Whitefield Category</div>
+      <div class="filter-row custom-filter-row" data-city="bangalore" data-area="koramangala">Bangalore – Koramangala Category</div>
+      <!-- filter section -->
+      <div class="container mt-lg-5 pt-lg-5 mt-5 pt-3 md-pt-0.8 md-mt-5 popular_container">
+         <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+               <h1 class="text_popular">Popular homes in Hopes College</h1>
+            </div>
+         </div>
+         <!-- filter row for coimbatore details -->
+         <div class="row mt-4 mt-lg-5 mt-lg-5 filter_row_by_cate_coimbatore custom-filter-row" data-city="coimbatore" data-area="rs_puram" 
+            onclick="window.location.href='details.html'" >
+            <div class="col-lg-4 col-md-12 col-12 filter_img_col">
+               <!-- <img loading="lazy" data-src="img/filter1.png" class="lazy" alt="Nest"/> -->
+               <!-- Carousel -->
+               <div class="carousel slide custom-carou" data-bs-ride="carousel" data-bs-ride="carousel" data-bs-toggle="modal" data-bs-target="#imageModal">
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+                  </div>
+                  <!-- Carousel Items -->
+                  <div class="carousel-inner custom-carousel-inner-home">
+                     <div class="carousel-item active">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img1.png" class="d-block w-100 lazy" alt="Image 1">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/kit/kit2.png" class="d-block w-100 lazy" alt="Image 2">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/eve/eva1.png" class="d-block w-100 lazy" alt="Image 3">
+                     </div>
+                  </div>
+                  <!-- Controls -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  </button>
+               </div>
+            </div>
+            <div class="col-lg-8 col-md-10 col-12 filter_img_co2">
+               <p class="filter_text1">Navanith Nest The Cozy Cubby (luxury version)</p>
+               <span class="filter_span1">23 flats with individual Parking</span>
+               <p class="filter_text2 pt-4" style="display:flex; align-items:flex-start; gap:8px;">
+                  <img src="img/Frame.png" />
+                  <span>
+                  New Chitrambalam Layout,<br>
+                  Papanaicken Palayam, Coimbatore - 641037
+                  </span>
+               </p>
+               <a href="https://wa.me/971559141074?text=I'm%20interested%20in%20Service%20Apartment" target="_blank" style="text-decoration:none;">
+               <button>
+               <img class="pe-2 whats_img_img" src="img/Icon.png" /> Call Us ( WhatsApp )
+               </button>
+               </a>
+            </div>
+            <div class="col-lg-1 col-md-2 col-2 filter_img_col3 mt-4 mt-lg-0 d-none">
+               <img src="img/Group 45.png" />
+            </div>
+         </div>
+         <!-- filter row for coimbatore details 2-->
+         <div class="row mt-4 mt-lg-5  filter_row_by_cate_coimbatore2 custom-filter-row" data-city="coimbatore" data-area="gandhipuram" 
+            onclick="window.location.href='details.html'" >
+            <div class="col-lg-4 col-md-12 col-12 filter_img_col">
+               <!-- <img loading="lazy" data-src="img/filter1.png" class="lazy" alt="Nest"/> -->
+               <!-- Carousel -->
+               <div class="carousel slide custom-carou" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+                  </div>
+                  <!-- Carousel Items -->
+                  <div class="carousel-inner custom-carousel-inner-home">
+                     <div class="carousel-item active">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img1.png" class="d-block w-100 lazy" alt="Image 1">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/kit/kit2.png" class="d-block w-100 lazy" alt="Image 2">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/eve/eva1.png" class="d-block w-100 lazy" alt="Image 3">
+                     </div>
+                  </div>
+                  <!-- Controls -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  </button>
+               </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 filter_img_co2">
+               <p class="filter_text1">Gandhipuram Navanith Nest The Cozy Cubby (luxury version)</p>
+               <span class="filter_span1">23 flats with individual Parking</span>
+               <p class="filter_text2 pt-4" style="display:flex; align-items:flex-start; gap:8px;">
+                  <img src="img/Frame.png" />
+                  <span>
+                  New Chitrambalam Layout,<br>
+                  Papanaicken Palayam, Coimbatore - 641037
+                  </span>
+               </p>
+               <a href="https://wa.me/971559141074?text=I'm%20interested%20in%20Service%20Apartment" target="_blank" style="text-decoration:none;">
+               <button>
+               <img class="pe-2 whats_img_img" src="img/Icon.png" /> Call Us ( WhatsApp )
+               </button>
+               </a>
+            </div>
+            <div class="col-lg-1 col-1 filter_img_col3 d-none">
+               <img src="img/Group 45.png" />
+            </div>
+         </div>
+         <div class="row mt-4 mt-lg-5 filter_row_by_cate_coimbatore2 custom-filter-row" data-city="coimbatore" data-area="gandhipuram" 
+            onclick="window.location.href='details.html'" >
+            <div class="col-lg-4 col-md-12 col-12 filter_img_col">
+               <!-- <img loading="lazy" data-src="img/filter1.png" class="lazy" alt="Nest"/> -->
+               <!-- Carousel -->
+               <div class="carousel slide custom-carou" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+                  </div>
+                  <!-- Carousel Items -->
+                  <div class="carousel-inner custom-carousel-inner-home">
+                     <div class="carousel-item active">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img1.png" class="d-block w-100 lazy" alt="Image 1">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/kit/kit2.png" class="d-block w-100 lazy" alt="Image 2">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/eve/eva1.png" class="d-block w-100 lazy" alt="Image 3">
+                     </div>
+                  </div>
+                  <!-- Controls -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  </button>
+               </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 filter_img_co2">
+               <p class="filter_text1">gandhipuram Navanith Nest The Cozy Cubby (luxury version)</p>
+               <span class="filter_span1">23 flats with individual Parking</span>
+               <p class="filter_text2 pt-4" style="display:flex; align-items:flex-start; gap:8px;">
+                  <img src="img/Frame.png" />
+                  <span>
+                  New Chitrambalam Layout,<br>
+                  Papanaicken Palayam, Coimbatore - 641037
+                  </span>
+               </p>
+               <a href="https://wa.me/971559141074?text=I'm%20interested%20in%20Service%20Apartment" target="_blank" style="text-decoration:none;">
+               <button>
+               <img class="pe-2 whats_img_img" src="img/Icon.png" /> Call Us ( WhatsApp )
+               </button>
+               </a>
+            </div>
+            <div class="col-lg-1 col-1 filter_img_col3 d-none">
+               <img src="img/Group 45.png" />
+            </div>
+         </div>
+         <div class="row mt-4 mt-lg-5 filter_row_by_cate_coimbatore2 custom-filter-row" data-city="coimbatore" data-area="gandhipuram" 
+            onclick="window.location.href='details.html'" >
+            <div class="col-lg-4 col-md-12 col-12 filter_img_col">
+               <!-- <img loading="lazy" data-src="img/filter1.png" class="lazy" alt="Nest"/> -->
+               <!-- Carousel -->
+               <div class="carousel slide custom-carou" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+                  </div>
+                  <!-- Carousel Items -->
+                  <div class="carousel-inner custom-carousel-inner-home">
+                     <div class="carousel-item active">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img1.png" class="d-block w-100 lazy" alt="Image 1">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/kit/kit2.png" class="d-block w-100 lazy" alt="Image 2">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/eve/eva1.png" class="d-block w-100 lazy" alt="Image 3">
+                     </div>
+                  </div>
+                  <!-- Controls -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  </button>
+               </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 filter_img_co2">
+               <p class="filter_text1">Gandhipuram Navanith Nest The Cozy Cubby (luxury version)</p>
+               <span class="filter_span1">23 flats with individual Parking</span>
+               <p class="filter_text2 pt-4" style="display:flex; align-items:flex-start; gap:8px;">
+                  <img src="img/Frame.png" />
+                  <span>
+                  New Chitrambalam Layout,<br>
+                  Papanaicken Palayam, Coimbatore - 641037
+                  </span>
+               </p>
+               <a href="https://wa.me/971559141074?text=I'm%20interested%20in%20Service%20Apartment" target="_blank" style="text-decoration:none;">
+               <button>
+               <img class="pe-2 whats_img_img" src="img/Icon.png" /> Call Us ( WhatsApp )
+               </button>
+               </a>
+            </div>
+            <div class="col-lg-1 col-1 filter_img_col3 d-none">
+               <img src="img/Group 45.png" />
+            </div>
+         </div>
+         <!-- filter row for chennai details 1-->
+         <div class="row mt-4 mt-lg-5 filter_row_by_cate_chennai custom-filter-row" data-city="chennai" data-area="t_nagar">
+            <div class="col-lg-4 col-md-12 col-12 filter_img_col">
+               <!-- <img loading="lazy" data-src="img/eve/eva2.png" class="lazy" alt="Nest"/> -->
+               <!-- Carousel -->
+               <div class="carousel slide custom-carou" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+                  </div>
+                  <!-- Carousel Items -->
+                  <div class="carousel-inner custom-carousel-inner-home">
+                     <div class="carousel-item active">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img1.png" class="d-block w-100 lazy" alt="Image 1">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/kit/kit2.png" class="d-block w-100 lazy" alt="Image 2">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/eve/eva1.png" class="d-block w-100 lazy" alt="Image 3">
+                     </div>
+                  </div>
+                  <!-- Controls -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  </button>
+               </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 filter_img_co2">
+               <p class="filter_text1">Chennai Navanith Nest The Cozy Cubby (luxury version)</p>
+               <span class="filter_span1">23 flats with individual Parking</span>
+               <p class="filter_text2 pt-4" style="display:flex; align-items:flex-start; gap:8px;">
+                  <img src="img/Frame.png" />
+                  <span>
+                  New Chitrambalam Layout,<br>
+                  Papanaicken Palayam, Coimbatore - 641037
+                  </span>
+               </p>
+               <a href="https://wa.me/971559141074?text=I'm%20interested%20in%20Service%20Apartment" target="_blank" style="text-decoration:none;">
+               <button>
+               <img class="pe-2 whats_img_img" src="img/Icon.png" /> Call Us ( WhatsApp )
+               </button>
+               </a>
+            </div>
+            <div class="col-lg-1 col-1 filter_img_col3 d-none">
+               <img src="img/Group 45.png" />
+            </div>
+         </div>
+         <!-- filter row for chennai details 2-->
+         <div class="row mt-4 mt-lg-5 filter_row_by_cate_chennai2 custom-filter-row" data-city="chennai" data-area="velachery">
+            <div class="col-lg-4 col-md-12 col-12 filter_img_col">
+               <!-- <img loading="lazy" data-src="img/eve/eva2.png" class="lazy" alt="Nest"/> -->
+               <!-- Carousel -->
+               <div class="carousel slide custom-carou" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+                  </div>
+                  <!-- Carousel Items -->
+                  <div class="carousel-inner custom-carousel-inner-home">
+                     <div class="carousel-item active">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img1.png" class="d-block w-100 lazy" alt="Image 1">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/kit/kit2.png" class="d-block w-100 lazy" alt="Image 2">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/eve/eva1.png" class="d-block w-100 lazy" alt="Image 3">
+                     </div>
+                  </div>
+                  <!-- Controls -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  </button>
+               </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 filter_img_co2">
+               <p class="filter_text1">Chennai area 2 Navanith Nest The Cozy Cubby (luxury version)</p>
+               <span class="filter_span1">23 flats with individual Parking</span>
+               <p class="filter_text2 pt-4" style="display:flex; align-items:flex-start; gap:8px;">
+                  <img src="img/Frame.png" />
+                  <span>
+                  New Chitrambalam Layout,<br>
+                  Papanaicken Palayam, Coimbatore - 641037
+                  </span>
+               </p>
+               <a href="https://wa.me/971559141074?text=I'm%20interested%20in%20Service%20Apartment" target="_blank" style="text-decoration:none;">
+               <button>
+               <img class="pe-2 whats_img_img" src="img/Icon.png" /> Call Us ( WhatsApp )
+               </button>
+               </a>
+            </div>
+            <div class="col-lg-1 col-1 filter_img_col3 d-none">
+               <img src="img/Group 45.png" />
+            </div>
+         </div>
+         <!-- filter row for bengalore details -->
+         <div class="row mt-4 mt-lg-5 filter_row_by_cate_bangalore custom-filter-row" data-city="bangalore" data-area="whitefield">
+            <div class="col-lg-4 col-md-12 col-12 filter_img_col">
+               <!-- <img loading="lazy" data-src="img/hall_img/hall2.png" class="lazy" alt="Nest"/> -->
+               <!-- Carousel -->
+               <div class="carousel slide custom-carou" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+                  </div>
+                  <!-- Carousel Items -->
+                  <div class="carousel-inner custom-carousel-inner-home">
+                     <div class="carousel-item active">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img1.png" class="d-block w-100 lazy" alt="Image 1">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/kit/kit2.png" class="d-block w-100 lazy" alt="Image 2">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/eve/eva1.png" class="d-block w-100 lazy" alt="Image 3">
+                     </div>
+                  </div>
+                  <!-- Controls -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  </button>
+               </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 filter_img_co2">
+               <p class="filter_text1">bengalore Navanith Nest The Cozy Cubby (luxury version)</p>
+               <span class="filter_span1">23 flats with individual Parking</span>
+               <p class="filter_text2 pt-4" style="display:flex; align-items:flex-start; gap:8px;">
+                  <img src="img/Frame.png" />
+                  <span>
+                  New Chitrambalam Layout,<br>
+                  Papanaicken Palayam, Coimbatore - 641037
+                  </span>
+               </p>
+               <a href="https://wa.me/971559141074?text=I'm%20interested%20in%20Service%20Apartment" target="_blank" style="text-decoration:none;">
+               <button>
+               <img class="pe-2 whats_img_img" src="img/Icon.png" /> Call Us ( WhatsApp )
+               </button>
+               </a>
+            </div>
+            <div class="col-lg-1 col-1 filter_img_col3 d-none">
+               <img src="img/Group 45.png" />
+            </div>
+         </div>
+         <!--filter row for bangalore details 2  -->
+         <div class="row mt-4 mt-lg-5 filter_row_by_cate_bangalore2 custom-filter-row" data-city="bangalore" data-area="koramangala">
+            <div class="col-lg-4 col-md-12 col-12 filter_img_col">
+               <!-- <img loading="lazy" data-src="img/hall_img/hall2.png" class="lazy" alt="Nest"/> -->
+               <!-- Carousel -->
+               <div class="carousel slide custom-carou" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+                     <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+                  </div>
+                  <!-- Carousel Items -->
+                  <div class="carousel-inner custom-carousel-inner-home">
+                     <div class="carousel-item active">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img1.png" class="d-block w-100 lazy" alt="Image 1">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/kit/kit2.png" class="d-block w-100 lazy" alt="Image 2">
+                     </div>
+                     <div class="carousel-item">
+                        <img loading="lazy" data-src="img/eve/eva1.png" class="d-block w-100 lazy" alt="Image 3">
+                     </div>
+                  </div>
+                  <!-- Controls -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  </button>
+               </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12 filter_img_co2">
+               <p class="filter_text1">bengalore koramangala Navanith Nest The Cozy Cubby (luxury version)</p>
+               <span class="filter_span1">23 flats with individual Parking</span>
+               <p class="filter_text2 pt-4" style="display:flex; align-items:flex-start; gap:8px;">
+                  <img src="img/Frame.png" />
+                  <span>
+                  New Chitrambalam Layout,<br>
+                  Papanaicken Palayam, Coimbatore - 641037
+                  </span>
+               </p>
+               <a href="https://wa.me/971559141074?text=I'm%20interested%20in%20Service%20Apartment" target="_blank" style="text-decoration:none;">
+                  <button class="d-lg-block d-md-block d-none">
+                     <div>
+                        <img class="pe-2 whats_img_img" src="img/Icon.png" /> Call Us ( WhatsApp )
+                     </div>
+                  </button>
+               </a>
+               <div class="col-lg-1 col-1 filter_img_col3 d-none">
+                  <img src="img/Group 45.png" />
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- category images -->
+      <div style="background-color: #F4FFC7; background-image: url('img/bgbgbg.png'); background-repeat: no-repeat;" id="photo_galary_id">
+         <div class="container-fluid mt-2 mt-lg-5" >
+            <div class="row">
+               <div class="col-lg-12 col-12">
+                  <div class="comfy_div mt-5 mt-lg-0">
+                     <p class="your_comfy_text">Your comfy stay</p>
+                     <span class="com_span">Comfy Rooms</span>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12 col-12 mt-lg-3 mt-2">
+                  <h1 class="apart_h1">Apartment Photos</h1>
+               </div>
+            </div>
+            <div class="row pt-lg-4 pt-2">
+               <div class="col-lg-12 col-12">
+                  <ul class="custom-ul" id="menu">
+                     <li class="active"><a data-filter="all">All</a></li>
+                     <li><a data-filter="custom-hall-row">Hall</a></li>
+                     <li><a data-filter="custom-room-row">Bed Room</a></li>
+                     <li><a data-filter="custom-kitchen-row">Kitchen</a></li>
+                     <li><a data-filter="custom-elevation-row">Elevation</a></li>
+                  </ul>
+               </div>
+            </div>
+            <!-- all section -->
+            <!-- room section 1 -->
+            <div class="row mt-lg-4 mt-2 custom-room-row">
+               <div class="col-lg-4 col-md-4 col-12">
+                  <img loading="lazy" data-src="img/room_img/bedroom_img1.png" class="lazy" alt="Single Bed Room"/>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <div class="row custom-room-center-row">
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img2.png" class="lazy" alt="Single Bed Room"/>
+                     </div>
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img3.png" class="lazy" alt="Single Bed Room"/>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <img loading="lazy" data-src="img/room_img/bedroom_img4.png" class="lazy" alt="Single Bed Room"/>
+               </div>
+            </div>
+            <!-- room section 2 -->
+            <div class="row mt-4 pb-lg-0 pb-5 custom-room-row">
+               <div class="col-lg-4 col-md-4 col-12">
+                  <div class="row custom-room-center-row">
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img2.png" class="lazy" alt="Single Bed Room">
+                     </div>
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img3.png" class="lazy" alt="Single Bed Room">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <img loading="lazy" data-src="img/room_img/bedroom_img1.png" class="lazy" alt="Single Bed Room"/>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <div class="row custom-room-center-row">
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img2.png" class="lazy" alt="Single Bed Room"/>
+                     </div>
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/room_img/bedroom_img3.png" class="lazy" alt="Single Bed Room"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- hall section 1 -->
+            <div class="row mt-lg-4 mt-2 custom-hall-row">
+               <div class="col-lg-4 col-md-4 col-12">
+                  <img loading="lazy" data-src="img/hall_img/hall3.png" class="lazy" alt="Hall" />
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <div class="row custom-hall-center-row">
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/hall_img/hall1.png" class="lazy" alt="Hall"/>
+                     </div>
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/hall_img/hall4.png" class="lazy" alt="Hall"/>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <img loading="lazy" data-src="img/hall_img/hall5.png" class="lazy" alt="Hall"/>
+               </div>
+            </div>
+            <!-- hall section 2 -->
+            <div class="row mt-lg-4 mt-2 custom-hall-row">
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0">
+                  <div class="row custom-hall-center-row">
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/hall_img/hall6.png" class="lazy" alt="Hall"/>
+                     </div>
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/hall_img/hall2.png" class="lazy" alt="Hall"/>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0">
+                  <img loading="lazy" data-src="img/hall_img/hall3.png" class="lazy" alt="Hall"/>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0">
+                  <div class="row custom-hall-center-row">
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/hall_img/hall2.png" class="lazy" alt="Hall"/>
+                     </div>
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/hall_img/hall6.png" class="lazy" alt="Hall"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- kitchen section 1 -->
+            <div class="row mt-2 mt-lg-4 custom-kitchen-row">
+               <div class="col-lg-4 col-md-4 col-12">
+                  <img loading="lazy" data-src="img/kit/kit1.png" class="lazy" alt="Kitchen"/>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <div class="row custom-kitchen-center-row">
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/kit/kit3.png" class="lazy" alt="Kitchen"/>
+                     </div>
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/kit/kit4.png" class="lazy" alt="Kitchen"/>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <img loading="lazy" data-src="img/kit/kit2.png" class="lazy" alt="Kitchen"/>
+               </div>
+            </div>
+            <!-- kitchen section 2 -->
+            <div class="row mt-4 pb-0 custom-kitchen-row">
+               <div class="col-lg-4 col-md-4 col-12">
+                  <div class="row custom-kitchen-center-row">
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/kit/kit5.png" class="lazy" alt="Kitchen"/>
+                     </div>
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/kit/kit4.png" class="lazy" alt="Kitchen"/>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <img loading="lazy" data-src="img/kit/kit1.png" class="lazy" alt="Kitchen"/>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <div class="row custom-kitchen-center-row">
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/kit/kit4.png" class="lazy" alt="Kitchen"/>
+                     </div>
+                     <div class="col-12">
+                        <img loading="lazy" data-src="img/kit/kit5.png" class="lazy" alt="Kitchen"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- elevation section 1 -->
+            <div class="row mt-2 mt-lg-4 custom-elevation-row">
+               <div class="col-lg-4 col-md-4 col-12">
+                  <img loading="lazy" data-src="img/eve/eva1.png" class="lazy" alt="Elevation"/>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <img loading="lazy" data-src="img/eve/eva2.png" class="lazy" alt="Elevation"/>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 mt-4 mt-lg-0 mt-md-0">
+                  <img loading="lazy" data-src="img/eve/eva1.png" class="lazy" alt="Elevation"/>
+               </div>
+            </div>
+            <div class="row" style="background-color: #F4FFC7; background-image: url('img/bgbg.png'); background-repeat: no-repeat; transform: rotate(180deg); height: 100px;"> </div>
+         </div>
+      </div>
+      <!-- apartment section -->
+      <div class="container pt-lg-5 pt-4">
+         <div class="row">
+            <div class="col-lg-12">
+               <p class="serviced_text_apart1">Serviced Apartment in Coimbatore for Daily / Monthly Rental</p>
+               <p class="serviced_text_apart2">The apartment can be booked for Daily and monthly booking.</p>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid custom-hover-img-container mt-lg-5 mt-1">
+         <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 custom-corporate">
+               <div>
+                  <p class="corporate_p1 corp_p1">Corporate Housing</p>
+                  <p class="business_para_p">Business professional looking for short or long term houses can utilize our apartment. The apartment is located in pleasant location at a residential area close to all essential services.</p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 custom-apart">
+               <div>
+                  <p class="corporate_p1 corp_p2">Apartment Hygiene</p>
+                  <p class="business_para_p">The apartment is cleaned everyday and extra efforts are taken for maintaining the cleanings on this COVID-19 season. Temperature is check for visitors and staffs.</p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 custom-safety" >
+               <div>
+                  <p class="corporate_p1 corp_p3">Safety</p>
+                  <p class="business_para_p">The Apartment is located in a residential area with CCTV attached. Completely safe for families.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Map section -->
+      <div id="custom_map_locationid" class="container-fluid custom_map_container mt-5">
+         <div class="row">
+            <div class="col-lg-6 col-12 map_col">
+               <div class="map_p">
+                  <p>Click for Apartment directions</p>
+                  <iframe
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.267655509434!2d76.98277501536748!3d11.018533792157543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8592f8c342d7f%3A0xd72399a9c3c589ef!2sNavanith%20Nest!5e0!3m2!1sen!2sae!4v1609758949474!5m2!1sen!2sae"
+                     class="col-xs-12 col-md-8 img-responsive gMap lazy"
+                     frameborder="0"
+                     style="border: 0; min-height: 350px"
+                     allowfullscreen=""
+                     aria-hidden="false"
+                     tabindex="0"
+                     ></iframe>
+               </div>
+            </div>
+            <div class="col-lg-6 col-12 book_cutom_col mt-2 mt-lg-0">
+               <div class="book_custom_p">
+                  <p class="book_custom_p1">Feel Like A Home</p>
+                  <p class="book_custom_p2">Booking Contact Us</p>
+                  <div>
+                     <p class="contact_info_text">CONTACT INFO</p>
+                     <ul class="mail_text" style="list-style-type: none">
+                        <p class="email_book">Email</p>
+                        <li class="footer_cont_media_book"><img src="img/Vector.png"/><a href="https://wa.me/971559141074?text=I'm%20interested%20in%20Service%Apartment">WhatsApp ( Click to chat / call )</a></li>
+                        <li class="footer_cont_media_book"><img src="img/Vector (1).png"/><a href="https://t.me/VirtualSys?text=I'm%20interested%20in%20Service%20Apartment">Telegram ( Click to chat / call )</a></li>
+                        <li class="footer_cont_media_book"><img src="img/Vector (2).png"/><a href="mailto:info@NavanithNest.com">info@NavanithNest.com</a></li>
+                        <li class="footer_cont_media_book"><img src="img/Vector (3).png"/><a href="#">www.NavanithNest.com</a></li>
+                     </ul>
+                     <p class="email_book">PHONE</p>
+                     <p class="book_ph">+91-9442108118 <span class="book_if_swit_text">( if switched off pls call from above WhatsApp )</span></p>
+                     <p class="book_if_swit_text">Monday - Sunday 9:00 - 21:00 ( IST )</p>
+                     <p class="email_book">ADDRESS</p>
+                     <p class="book_if_swit_text">59 New Chitrambalam Layout, Papanaicken Palayam, Coimbatore - 641037</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- serviced section -->
+      <div class="container-fluid service_container mt-lg-5 mt-3" style="
+         background-image: url(img/green_bg.png);
+         background-repeat: no-repeat; background-size: cover;">
+         <div class="row service-row">
+            <div class="col-lg-6 col-12 service-col1">
+               <h1 class="serviced_h1 pt-4 pt-lg-0">Serviced Apartment in Coimbatore for Daily Rental</h1>
+               <p class="get_span1">Get the best service apartment for rent in Coimbatore. Get a fully furnished service apartment in Coimbatore with full amenities, CCTV surveillance, and proper security check. A serviced apartment for rent in Papanicken Palayam is also available at your favorite location. The service apartment near Ramakrishna hospital, near the Coimbatore railway station, near kuppusamy hospital, Coimbatore airport, near fertility center, near GEM HOSPITAL, near PSG HOSPITAL is located. The Furnished Service Apartment for Rent in Coimbatore is professionally regulated with all the rules in check. Also, a budget-friendly Papanaicken Palayam Service Apartment is available. The Service Apartment in Coimbatore is equipped with a dining and furnished living room, drawing room, etc. Proper hygiene and cleanliness are ensured. The Kitchen cabinet is spacious, and the food can be easily cooked. The entire staff is amicable and there always at service. </p>
+               <p class="get_span2 mt-4">People can easily rest down and feel at home. We are the best service apartment in Papanaicken Palayam. Various services like laundry, Wi-Fi and car parking are also made available. The Service Apartment in Coimbatore takes care of all short term and long term needs. The Furnished Service Apartment for Rent in Coimbatore takes care of every little detail, and a track record of monthly rent is also made with reminders given on time to avoid delay. Getting a Service Apartment in Papanaicken Palayam is going to a good decision. Also, there is a lot of flexibility as people can choose and customize the room settings as per their own taste. </p>
+            </div>
+            <div class="col-lg-6 col-12 pb_col text-center custom-img-group ">
+               <div class="custom-mask-group">
+                  <img class="custom-mask-group1" src="img/Mask Group.png"/>
+                  <div class="custom-mask-group2">
+                     <img loading="lazy" data-src="img/service1-550x550.jpg.png" class="lazy" alt="Room"/>
+                  </div>
+                  <div class="custom-mask-group3">
+                     <img loading="lazy" data-src="img/hotel-image-2.jpg.png" class="lazy" alt="kitchen"/>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Contact Form -->
+      <div class="container pb-lg-5 pb-2" id="list_id">
+         <div class="row">
+            <div class="col-lg-12">
+               <h1 class="text_listing">Listing</h1>
+               <p class="text_turn_p">Turn Your Property into a Profitable Navanith Nest Listing</p>
+               <p class="let_text">Let our expert team handle everything — from setup to guest management. Share your details below, and we’ll get in touch to help you start earning</p>
+            </div>
+         </div>
+         <div class="row mt-lg-4">
+            <div class="col-lg-6 col-md-6 col-12">
+               <form id="contact_form_id">
+                  <div class="row">
+                     <div class="col custom-col-input">
+                        <input type="text" class="form-control-custom" placeholder="Full Name" name="name">
+                     </div>
+                     <div class="col custom-col-input">
+                        <input type="password" class="form-control-custom" placeholder="Email Address" name="email">
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col custom-col-input">
+                        <input type="text" class="form-control-custom" placeholder="Ph Number" name="Ph Number">
+                     </div>
+                     <div class="col custom-col-input">
+                        <input type="password" class="form-control-custom" placeholder="Property Type" name="Property Type">
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col custom-col-input">
+                        <input type="text" class="form-control-custom" placeholder="Number of Bedrooms" name="Ph Number">
+                     </div>
+                     <div class="col-md-6 custom-col-input">
+                        <input type="password" class="form-control-custom" placeholder="Approximate Size or Area (sq. ft.)" name="Property Type">
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12 custom-col-input">
+                        <textarea type="text" class="form-control-custom form-message" placeholder="Message" name="Ph Number"></textarea>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12 custom-col-input">
+                        <button class="form-control-button">SEND A MESSAGE</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 custom-img-contact">
+               <img loading="lazy" data-src="img/Rectangle 14.png" class="lazy" alt="Room"/>
+            </div>
+         </div>
+      </div>
+      <!-- Footer -->
+      <div class="container-fluid custom-footer-container">
+         <div class="row">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-3 col-md-3 col-12 footer-logo-img">
+               <img loading="lazy" src="img/NavanithNest-Logo 1.png" alt="Navanith"/>
+               <p class="p_feel pt-lg-3 pt-3 ">Feel free to reach out if you want to collaborate with us, or chat.</p>
+               <div class="social_media_row pt-2 pt-lg-2">
+                  <a href="#"><img src="img/twit.png"/></a>
+                  <a href="https://www.facebook.com/Navanith-Nest-115041704105674"><img src="img/fb.png"/></a>
+                  <a href="#"><img src="img/youtube.png"/></a>
+                  <a href="#"><img src="img/insta.png"/></a>
+               </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-12">
+               <h1 class="footer_menu_head pt-lg-0 pt-3">Navigate</h1>
+               <ul class="foot_menus" style="list-style-type: none">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Amenities</a></li>
+                  <li><a href="#">Photo Gallery</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Local Attraction</a></li>
+                  <li><a href="#">Terms & Conditons</a></li>
+                  <li><a href="#">Reservation Form</a></li>
+               </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-12">
+               <h1 class="footer_menu_head2 pt-lg-0 pt-0">Contact Us</h1>
+               <ul class="foot_menus" style="list-style-type: none">
+                  <li class="email_footer_p">Email</li>
+                  <li class="footer_cont_media"><img src="img/whatsapp.png"/><a href="https://wa.me/971559141074?text=I'm%20interested%20in%20Service%20Apartment">WhatsApp ( Click to chat / call )</a></li>
+                  <li class="footer_cont_media"><img src="img/telegram.png"/><a href="https://t.me/VirtualSys?text=I'm%20interested%20in%20Service%20Apartment">Telegram ( Click to chat / call )</a></li>
+                  <li class="footer_cont_media"><img src="img/mail.png"/><a href="mailto:info@NavanithNest.com">info@NavanithNest.com</a></li>
+                  <li class="footer_cont_media"><img src="img/world.png"/><a href="#">www.NavanithNest.com</a></li>
+               </ul>
+               <p class="email_footer_p">address</p>
+               <p class="footer_address_p">59 New Chitrambalam Layout,</p>
+               <p class="footer_address_p">Papanaicken Palayam,</p>
+               <p class="footer_address_p">Coimbatore - 641037</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-12">
+               <h1 class="footer_menu_head3 pt-lg-0 pt-3 d-none d-md-block">Phone</h1>
+               <ul class="foot_menus" style="list-style-type: none">
+                  <li class="email_footer_p  mb-0">Phone</li>
+                  <li class="footer_cont_media_phone pt-2"><span href="#">+91-9442108118</span></li>
+                  <li class="footer_cont_media_phone pt-2"><span>( if switched off pls call from above WhatsApp )</span></li>
+                  <li class="footer_cont_media_phone pt-2"><span>Monday - Sunday 9:00 - 21:00 ( IST )</span></li>
+               </ul>
+            </div>
+            <div class="col-lg-1">
+            </div>
+         </div>
+         <div class="row pt-lg-5  pb-lg-5 pt-2">
+            <div class="col-12 text-center">
+               <span class="copy_text">© 2025 Navanith Nest</span>
+            </div>
+         </div>
+      </div>
+      <!-- WhatsApp Chat Button -->
+      <div  class="whatsapp-float">
+         <a href="https://wa.me/971559141074?text=Hello%20I%20need%20help" 
+            target="_blank">
+            <div class="whatsapp-text"> <span class="">Need Help? <span class="chat_text ps-1">Chat with us</span></span></div>
+            <div><img src="img/image fill.png" alt="WhatsApp" /></div>
+         </a>
+      </div>
+      <script  src="script/script.js"></script>
+      <!-- lazy loading images script -->
+      <script>
+         document.addEventListener('DOMContentLoaded', function() {
+         
+         if ('IntersectionObserver' in window) {
+            
+            // Add styles dynamically for visual loading effect
+            const style = document.createElement('style');
+            style.textContent = `
+                img.lazy {
+                    opacity: 0;
+                    transition: opacity 0.5s ease-in;
+                    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+                    background-size: 200% 100%;
+                    animation: loading 1.5s infinite;
+                    min-height: 200px;
+                }
+                
+                img.lazy.loaded {
+                    opacity: 1;
+                    background: none;
+                    animation: none;
+                }
+                
+                @keyframes loading {
+                    0% { background-position: 200% 0; }
+                    100% { background-position: -200% 0; }
+                }
+                
+                /* Loading counter at top of page */
+                #lazy-counter {
+                    position: fixed;
+                    top: 10px;
+                    right: 10px;
+                    background: #4CAF50;
+                    color: white;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    z-index: 9999;
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+                    font-size: 14px;
+                }
+            `;
+            document.head.appendChild(style);
+            
+            // Create counter element
+            const counter = document.createElement('div');
+            counter.id = 'lazy-counter';
+            document.body.appendChild(counter);
+            
+            const totalImages = document.querySelectorAll('img.lazy').length;
+            let loadedImages = 0;
+            
+            function updateCounter() {
+                counter.style.display = 'none';
+                // counter.textContent = '🖼️ Loaded: ' + loadedImages + ' / ' + totalImages;
+                if (loadedImages === totalImages) {
+                    // counter.style.background = '#2196F3';
+                    
+                    setTimeout(function() {
+                        counter.style.display = 'none';
+                    }, 3000);
+                }
+            }
+            
+            updateCounter();
+            
+            const imageObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        const src = img.getAttribute('data-src');
+                        
+                        if (src && !img.classList.contains('loaded')) {
+                            // Show loading state
+                            // console.log('📥 Loading:', src);
+                            
+                            // Simulate network delay to see the effect (remove in production)
+                            setTimeout(function() {
+                                img.src = src;
+                                img.onload = function() {
+                                    img.classList.add('loaded');
+                                    loadedImages++;
+                                    updateCounter();
+                                    // console.log('✅ Loaded:', src);
+                                };
+                            }, 300); // 300ms delay to see loading effect
+                            
+                            imageObserver.unobserve(img);
+                        }
+                    }
+                });
+            }, {
+                rootMargin: '100px',
+                threshold: 0.01
+            });
+            
+            // Observe all lazy images
+            document.querySelectorAll('img.lazy').forEach(function(img) {
+                imageObserver.observe(img);
+            });
+            
+            // console.log('👁️ Watching ' + totalImages + ' images for lazy loading');
+            
+         } else {
+            // Fallback
+            document.querySelectorAll('img.lazy').forEach(function(img) {
+                img.src = img.getAttribute('data-src');
+                img.classList.add('loaded');
+            });
+         }
+         });
+      </script>
+   </body>
+</html>
